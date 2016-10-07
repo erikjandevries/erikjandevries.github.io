@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello, world!
+author: Erik Jan de Vries
 ---
 
 ## Hello, world!
