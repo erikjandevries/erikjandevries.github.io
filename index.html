@@ -6,7 +6,7 @@ layout: default
   <h1>Blog</h1>
   {% for post in site.posts %}
     <article class="post">
-      <div class="date"><p>{{ post.date | date: "%-d" }}<span>{{ post.date | date: "%B" }}</span></p></div>
+      <div class="date"><span class="date_day">{{ post.date | date: "%-d" }}</span><span class="date_month">{{ post.date | date: "%B" }}</span></div>
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     </article>
   {% endfor %}
